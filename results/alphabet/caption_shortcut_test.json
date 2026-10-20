@@ -1,0 +1,19 @@
+{
+  "split": "test",
+  "conf": 0.25,
+  "band": 0.17,
+  "groups": {
+    "video frames (captioned)": {
+      "images": 117,
+      "original": 1.0,
+      "caption hidden": 1.0,
+      "caption only": 0.0
+    },
+    "photos (no caption)": {
+      "images": 78,
+      "original": 0.9230769230769231,
+      "caption hidden": 0.9230769230769231,
+      "caption only": 0.0641025641025641
+    }
+  }
+}

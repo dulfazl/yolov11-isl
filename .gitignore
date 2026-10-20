@@ -1,0 +1,24 @@
+# Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Data and run outputs (datasets come from Roboflow; see download_data.py)
+datasets/
+runs/
+yolo11*.pt
+
+# Exports (regenerate with export.py)
+weights/*.onnx
+weights/*.mlpackage/
+weights/*_saved_model/
+weights/*.tflite
+weights/*_openvino_model/
+weights/*.engine
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+.idea/
+.vscode/

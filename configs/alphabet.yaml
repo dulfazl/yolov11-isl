@@ -1,0 +1,16 @@
+# ISL letters & numbers — 35 classes (digits 1–9, letters A–Z)
+# Source: Roboflow Universe, "Indian Sign Language Detection" v1 (CC BY 4.0)
+# https://universe.roboflow.com/project-ze4h3/indian-sign-language-detection-nv2xc/dataset/1
+#
+# Fetch with:  python download_data.py alphabet
+# Paths are relative to this file.
+
+train: ../datasets/isl-alphabet/train/images
+val: ../datasets/isl-alphabet/valid/images
+test: ../datasets/isl-alphabet/test/images
+
+# Class order must match the label files exported by Roboflow. The export names
+# class 34 lowercase "c" (it sits after "Z"); it is renamed "C" here for display
+# only — the index is unchanged.
+nc: 35
+names: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'C']

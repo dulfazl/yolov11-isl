@@ -1,0 +1,14 @@
+# ISL words & phrases — 114 classes (digits, letters and everyday words)
+# Source: Roboflow Universe, "ROHIT_ISL(115)" v4 (CC BY 4.0)
+# https://universe.roboflow.com/rohit-sjsqg/rohit_isl-115/dataset/4
+#
+# Fetch with:  python download_data.py phrases
+# Paths are relative to this file.
+
+train: ../datasets/isl-phrases/train/images
+val: ../datasets/isl-phrases/valid/images
+test: ../datasets/isl-phrases/test/images
+
+# Class order must match the label files exported by Roboflow.
+nc: 114
+names: ['1', '3', '4', '5', '6', '8', 'A', 'Age', 'B', 'C', 'Cow', 'D', 'Dog', 'E', 'Elephant', 'F', 'Fish', 'Frog', 'G', 'H', 'Home', 'I', 'Internet', 'J', 'K', 'L', 'Laptop', 'M', 'Mobile', 'Monkey', 'N', 'Namastey', 'O', 'Owl', 'P', 'Photo', 'Q', 'Question', 'R', 'S', 'School', 'Signature', 'Sleep', 'Snake', 'Spider', 'Stand', 'Sun', 'T', 'Technology', 'U', 'V', 'W', 'X', 'Y', 'Yellow', 'You', 'Z', 'accept', 'antelope', 'assistant', 'bag', 'black', 'book', 'boot', 'bottle', 'bull', 'camel', 'card', 'cash', 'cat', 'chicken', 'colour', 'crocodile', 'dupatta', 'earpods', 'fast', 'goat', 'gun', 'hair', 'handkerchief', 'help', 'heron', 'horse', 'how', 'human', 'i', 'idea', 'jeans', 'keep', 'location', 'meet', 'name', 'nice', 'peacock', 'pen', 'person', 'promise', 'proof', 'rain', 'saree', 'shoot', 'star', 'tiger', 'tv', 'umbrella', 'we', 'what', 'when', 'where', 'which', 'white', 'who', 'wolf', 'your']
