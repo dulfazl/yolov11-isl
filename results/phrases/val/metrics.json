@@ -1,0 +1,879 @@
+{
+  "weights": "weights/isl-phrases-yolo11n.pt",
+  "data": "phrases",
+  "split": "val",
+  "images": 420,
+  "classes_present": 96,
+  "precision": 0.9113101701639205,
+  "recall": 0.9007602686920482,
+  "mAP50": 0.9526064878408628,
+  "mAP50-95": 0.6770212345235852,
+  "top1_accuracy": 0.9238095238095239,
+  "top1_conf_threshold": 0.25,
+  "per_class": [
+    {
+      "class": "3",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.871410888007207,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.4761666666666667
+    },
+    {
+      "class": "4",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.49849051127928284,
+      "recall": 1.0,
+      "mAP50": 0.9125000000000002,
+      "mAP50-95": 0.7800000000000002
+    },
+    {
+      "class": "5",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9043263171934831,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.7635000000000001
+    },
+    {
+      "class": "6",
+      "images": 4,
+      "top1_accuracy": 0.75,
+      "precision": 1.0,
+      "recall": 0.6779938621331074,
+      "mAP50": 0.945,
+      "mAP50-95": 0.5636363636363637
+    },
+    {
+      "class": "8",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.8802147752375565,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.796
+    },
+    {
+      "class": "Cow",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9115729475937553,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.8403333333333334
+    },
+    {
+      "class": "E",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9196022093170748,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.8630000000000001
+    },
+    {
+      "class": "F",
+      "images": 4,
+      "top1_accuracy": 0.5,
+      "precision": 1.0,
+      "recall": 0.45724256132952124,
+      "mAP50": 0.895,
+      "mAP50-95": 0.47925000000000006
+    },
+    {
+      "class": "Fish",
+      "images": 2,
+      "top1_accuracy": 1.0,
+      "precision": 0.8628418254862098,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6217499999999999
+    },
+    {
+      "class": "Frog",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9244506621194098,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.951
+    },
+    {
+      "class": "G",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.8986676665876057,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.5750833333333334
+    },
+    {
+      "class": "I",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.916535962856656,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.8630000000000001
+    },
+    {
+      "class": "Internet",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9101318949202414,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.819
+    },
+    {
+      "class": "J",
+      "images": 5,
+      "top1_accuracy": 0.6,
+      "precision": 1.0,
+      "recall": 0.7949797514527203,
+      "mAP50": 0.995,
+      "mAP50-95": 0.48674999999999996
+    },
+    {
+      "class": "K",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9376098230502563,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.640125
+    },
+    {
+      "class": "L",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9332042185228815,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.7630000000000001
+    },
+    {
+      "class": "M",
+      "images": 4,
+      "top1_accuracy": 0.75,
+      "precision": 0.63162843386457,
+      "recall": 0.8686066269921376,
+      "mAP50": 0.8491666666666666,
+      "mAP50-95": 0.5961666666666666
+    },
+    {
+      "class": "Mobile",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9449801538904135,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.5651666666666666
+    },
+    {
+      "class": "N",
+      "images": 5,
+      "top1_accuracy": 0.4,
+      "precision": 0.8258851127260814,
+      "recall": 0.6,
+      "mAP50": 0.8449999999999999,
+      "mAP50-95": 0.6001794871794871
+    },
+    {
+      "class": "O",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9357623364242909,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.8295
+    },
+    {
+      "class": "Owl",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9306358145480594,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6788333333333333
+    },
+    {
+      "class": "P",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.969130675813184,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.7205000000000001
+    },
+    {
+      "class": "Photo",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9308279704328166,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.8205
+    },
+    {
+      "class": "Q",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9653533711872228,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.8403749999999999
+    },
+    {
+      "class": "Question",
+      "images": 8,
+      "top1_accuracy": 1.0,
+      "precision": 0.9941943239503083,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6209642857142856
+    },
+    {
+      "class": "R",
+      "images": 4,
+      "top1_accuracy": 0.75,
+      "precision": 1.0,
+      "recall": 0.7077083012639556,
+      "mAP50": 0.745,
+      "mAP50-95": 0.4465
+    },
+    {
+      "class": "S",
+      "images": 8,
+      "top1_accuracy": 1.0,
+      "precision": 0.9610885498613848,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6608928571428572
+    },
+    {
+      "class": "Signature",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.8335933838307967,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6305
+    },
+    {
+      "class": "Sleep",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9056090228053896,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.8074999999999999
+    },
+    {
+      "class": "Spider",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9033691948138544,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.7965000000000001
+    },
+    {
+      "class": "Stand",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9121573733329357,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6525000000000001
+    },
+    {
+      "class": "T",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9088601453019247,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.5653333333333335
+    },
+    {
+      "class": "Technology",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 0.8613773790644847,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6416538461538462
+    },
+    {
+      "class": "U",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9465144567645881,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.7060500000000001
+    },
+    {
+      "class": "V",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9269127305834834,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.62305
+    },
+    {
+      "class": "W",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9566191587794622,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.72165
+    },
+    {
+      "class": "X",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9366530720056536,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6442083333333334
+    },
+    {
+      "class": "Y",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9346130403865505,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.7681666666666667
+    },
+    {
+      "class": "You",
+      "images": 6,
+      "top1_accuracy": 0.8333333333333334,
+      "precision": 1.0,
+      "recall": 0.9346737554362148,
+      "mAP50": 0.995,
+      "mAP50-95": 0.5855301418439717
+    },
+    {
+      "class": "Z",
+      "images": 6,
+      "top1_accuracy": 1.0,
+      "precision": 0.9463511922499163,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.7465
+    },
+    {
+      "class": "accept",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9417523657450704,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.9019999999999999
+    },
+    {
+      "class": "antelope",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9493372219683854,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6065357142857144
+    },
+    {
+      "class": "assistant",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9056068256367132,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.74975
+    },
+    {
+      "class": "bag",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9119904255243115,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.8074999999999999
+    },
+    {
+      "class": "black",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9571602879386696,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.4814210526315789
+    },
+    {
+      "class": "book",
+      "images": 3,
+      "top1_accuracy": 0.6666666666666666,
+      "precision": 0.8979547508732743,
+      "recall": 0.6666666666666666,
+      "mAP50": 0.665,
+      "mAP50-95": 0.5655
+    },
+    {
+      "class": "boot",
+      "images": 8,
+      "top1_accuracy": 1.0,
+      "precision": 0.9729585332459877,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6015750000000001
+    },
+    {
+      "class": "bottle",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9212480511452638,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.7085
+    },
+    {
+      "class": "bull",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9539592944230796,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.920125
+    },
+    {
+      "class": "camel",
+      "images": 3,
+      "top1_accuracy": 0.6666666666666666,
+      "precision": 0.8157859690394145,
+      "recall": 0.6666666666666666,
+      "mAP50": 0.9125000000000002,
+      "mAP50-95": 0.43374137931034484
+    },
+    {
+      "class": "card",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9046303698259671,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6455
+    },
+    {
+      "class": "cash",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9794129129909169,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6708000000000001
+    },
+    {
+      "class": "chicken",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.45439249200037923,
+      "recall": 0.4,
+      "mAP50": 0.38071428571428567,
+      "mAP50-95": 0.20170238095238094
+    },
+    {
+      "class": "colour",
+      "images": 6,
+      "top1_accuracy": 1.0,
+      "precision": 0.8601034228877096,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6771666666666667
+    },
+    {
+      "class": "crocodile",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9087861455673285,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6965
+    },
+    {
+      "class": "dupatta",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9251781297117614,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.8327500000000001
+    },
+    {
+      "class": "earpods",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9584916898551726,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.40337499999999993
+    },
+    {
+      "class": "fast",
+      "images": 5,
+      "top1_accuracy": 0.8,
+      "precision": 1.0,
+      "recall": 0.8412268233799386,
+      "mAP50": 0.995,
+      "mAP50-95": 0.7621666666666667
+    },
+    {
+      "class": "goat",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9289220520758871,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.8625
+    },
+    {
+      "class": "gun",
+      "images": 4,
+      "top1_accuracy": 0.75,
+      "precision": 1.0,
+      "recall": 0.827688132321918,
+      "mAP50": 0.995,
+      "mAP50-95": 0.70225
+    },
+    {
+      "class": "hair",
+      "images": 5,
+      "top1_accuracy": 0.8,
+      "precision": 1.0,
+      "recall": 0.5555599907660874,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6211249999999999
+    },
+    {
+      "class": "handkerchief",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9703375033171621,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6461666666666667
+    },
+    {
+      "class": "help",
+      "images": 4,
+      "top1_accuracy": 0.0,
+      "precision": 1.0,
+      "recall": 0.7391142829336357,
+      "mAP50": 0.9116666666666666,
+      "mAP50-95": 0.7205
+    },
+    {
+      "class": "heron",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9047805421857587,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.9066666666666666
+    },
+    {
+      "class": "horse",
+      "images": 3,
+      "top1_accuracy": 0.6666666666666666,
+      "precision": 0.8414590350083733,
+      "recall": 0.6666666666666666,
+      "mAP50": 0.8064285714285717,
+      "mAP50-95": 0.5834447004608296
+    },
+    {
+      "class": "how",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.6586159414505673,
+      "recall": 0.6,
+      "mAP50": 0.8033333333333331,
+      "mAP50-95": 0.5754999999999999
+    },
+    {
+      "class": "human",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9336739918122647,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.7212500000000001
+    },
+    {
+      "class": "i",
+      "images": 1,
+      "top1_accuracy": 1.0,
+      "precision": 0.6694850206804926,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.796
+    },
+    {
+      "class": "idea",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9340533009770472,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.677375
+    },
+    {
+      "class": "jeans",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9306390931534296,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.7295
+    },
+    {
+      "class": "keep",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9163912235937405,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.578125
+    },
+    {
+      "class": "location",
+      "images": 6,
+      "top1_accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 0.5910872860206863,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6592132352941176
+    },
+    {
+      "class": "meet",
+      "images": 6,
+      "top1_accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 0.917271977497229,
+      "mAP50": 0.995,
+      "mAP50-95": 0.83795
+    },
+    {
+      "class": "name",
+      "images": 9,
+      "top1_accuracy": 0.8888888888888888,
+      "precision": 0.9352878885386684,
+      "recall": 0.8888888888888888,
+      "mAP50": 0.9675000000000001,
+      "mAP50-95": 0.6993541666666668
+    },
+    {
+      "class": "nice",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9344362564779627,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.7646249999999999
+    },
+    {
+      "class": "peacock",
+      "images": 4,
+      "top1_accuracy": 0.75,
+      "precision": 0.9233023465962833,
+      "recall": 0.75,
+      "mAP50": 0.7642307692307693,
+      "mAP50-95": 0.7111923076923078
+    },
+    {
+      "class": "pen",
+      "images": 5,
+      "top1_accuracy": 0.8,
+      "precision": 1.0,
+      "recall": 0.7982582957549272,
+      "mAP50": 0.9378571428571427,
+      "mAP50-95": 0.46814285714285714
+    },
+    {
+      "class": "person",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9184830851182844,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.833
+    },
+    {
+      "class": "promise",
+      "images": 12,
+      "top1_accuracy": 1.0,
+      "precision": 0.9899039967836724,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.568798275862069
+    },
+    {
+      "class": "proof",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9502079590700977,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6218333333333333
+    },
+    {
+      "class": "rain",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9602447692374869,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.8789999999999999
+    },
+    {
+      "class": "saree",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9215015172231393,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.9066666666666666
+    },
+    {
+      "class": "shoot",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.6292917603948457,
+      "recall": 1.0,
+      "mAP50": 0.9378571428571427,
+      "mAP50-95": 0.7749107142857141
+    },
+    {
+      "class": "star",
+      "images": 4,
+      "top1_accuracy": 0.75,
+      "precision": 0.6925877116157285,
+      "recall": 0.5,
+      "mAP50": 0.8491666666666666,
+      "mAP50-95": 0.47175
+    },
+    {
+      "class": "tiger",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9196028479696571,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.671
+    },
+    {
+      "class": "tv",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.8875085444665661,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.78325
+    },
+    {
+      "class": "umbrella",
+      "images": 4,
+      "top1_accuracy": 1.0,
+      "precision": 0.9274426671448754,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.82075
+    },
+    {
+      "class": "we",
+      "images": 3,
+      "top1_accuracy": 0.0,
+      "precision": 1.0,
+      "recall": 0.0,
+      "mAP50": 0.0,
+      "mAP50-95": 0.0
+    },
+    {
+      "class": "what",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 0.31806055721887755,
+      "mAP50": 0.92,
+      "mAP50-95": 0.6525000000000001
+    },
+    {
+      "class": "when",
+      "images": 6,
+      "top1_accuracy": 0.8333333333333334,
+      "precision": 0.9426791325674619,
+      "recall": 0.8333333333333334,
+      "mAP50": 0.9721428571428571,
+      "mAP50-95": 0.7424999999999999
+    },
+    {
+      "class": "where",
+      "images": 8,
+      "top1_accuracy": 1.0,
+      "precision": 0.9980077849702614,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6982967980295567
+    },
+    {
+      "class": "which",
+      "images": 6,
+      "top1_accuracy": 0.6666666666666666,
+      "precision": 1.0,
+      "recall": 0.2696234319310482,
+      "mAP50": 0.9007142857142856,
+      "mAP50-95": 0.5142112833125745
+    },
+    {
+      "class": "white",
+      "images": 5,
+      "top1_accuracy": 1.0,
+      "precision": 0.9508197828201921,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.6148333333333333
+    },
+    {
+      "class": "who",
+      "images": 8,
+      "top1_accuracy": 0.875,
+      "precision": 0.7472258733479762,
+      "recall": 0.7402905567179164,
+      "mAP50": 0.8994444444444445,
+      "mAP50-95": 0.6364333333333334
+    },
+    {
+      "class": "wolf",
+      "images": 3,
+      "top1_accuracy": 1.0,
+      "precision": 0.9175484437249767,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.7300000000000001
+    },
+    {
+      "class": "your",
+      "images": 2,
+      "top1_accuracy": 1.0,
+      "precision": 0.8627881593095933,
+      "recall": 1.0,
+      "mAP50": 0.995,
+      "mAP50-95": 0.5965
+    }
+  ]
+}
